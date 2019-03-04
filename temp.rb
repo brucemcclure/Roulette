@@ -35,10 +35,14 @@ wheel = { 0  => "Green",                                                    #A h
           34 => "Red",
           35 => "Black", 
           36 => "Red"}
-p ball_placement = rand(36)                                               #Spinning the wheel and generating a random number 1-36
-p wheel[ball_placement]                                                   #"Fixing the number to one specific variable"
+
 player_purse = 100                                                        #Setting purse to 100 for now
 puts "Welcome to the CoderAcademy Roulette Game"
+#This is where you put the beginning of the while loop
+repeat = "y"
+while repeat == "y"
+    p ball_placement = rand(36)                                               #Spinning the wheel and generating a random number 1-36
+    p wheel[ball_placement]                                                   #"Fixing the number to one specific variable"
 puts "Your current balance is #{player_purse}$"                           #Displaying the current player purse
 
 #*************************************************************************
@@ -60,7 +64,7 @@ bet_choice = gets.chomp.to_i
 
 #*************************************************************************
 puts "How much would you like to bet?"
-bet_amount gets.chomp.to_f                                                  #Initializes the bet amount
+bet_amount = gets.chomp.to_f                                                #Initializes the bet amount
     if bet_amount > player_purse                                            #must not be able to bet more than what they have in the purse.
         puts "You cannot bet that much... but youre 'all in'"               
     elsif
@@ -231,3 +235,8 @@ case bet_choice
         end
 #************************************************************************        
 end                                                                        #End of case bet choice
+
+puts "Would you like to play again? (y/n)"
+repeat = gets.chomp
+system "clear"
+end
