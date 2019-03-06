@@ -51,9 +51,10 @@ Project plan and timeline
 
 ### 1.	CODE STUCTURE
 
-Code structure is a looped case statement with nested while loops for restricting incorrect user input, and overall loop and attached ledger document to record/tally the user’s the winnings and losses. The structure was designed around the 11 types of bets it is possible to place on a roulette table. A random generated number from the range 0-36 is issued and compared with your placed bets (bet type/number), and a message is displayed to show if you have won or loss. The winnings and the probability of you winning (the odds that you get when you win), are based on the roulette documentation from 
+Code structure is a looped case statement with nested while loops for restricting incorrect user input, and overall loop and attached ledger document to record/tally the user’s the winnings and losses. The structure was designed around the 11 types of bets it is possible to place on a roulette table. A random generated number from the range 0-36 is issued and compared with your placed bets (bet type/number), and a message is displayed to show if you have won or loss. The winnings and the probability of you winning (the odds that you get when you win), are based on the roulette documentation.
 
 ![](Pictures%20/base_table.png)
+![](Pictures%20/odds.png)
 
 
 
@@ -72,12 +73,12 @@ We used Tello, GitHub for project planning and collaborating. URL (INPUT) and we
 ### 5. FUTURE OF APP ROULETTE
 Future devs can make the game play more enjoyable by adding more user experience aesthetics in terms of gems to highlight when the game has been won or loss. It is also extendible by having username and password for users to have running record when they close the app, and also trying to make it a multiplayer game, so more than one person can play the game together. There could also be an animation of a spin before the randomised number is displayed to make the experience more immersive. 
 
-Future devs - Put an age limit for persons below 16 – as there is a limitation to persons entering a casino for the prevention of developing bad addictive gambling habits
+Future devs - Put an age limit for persons below 18 – as there is a limitation to persons entering a casino for the prevention of developing bad addictive gambling habits
 
 ### 6. POTENTIAL LEGAL, MORAL, ETHICAL, CULTURAL AND SAFETY ISSUES OF APP
 
-App is based off the addictive gambling game roulette so the potential legal issues could be if anyone used this app to gamble illegally. Moral, ethical, cultural and safety issues would be related to gambling addiction and this app can either aid or encourage this addiction which is why we have used a counter (see Bruce) to limit the number of times you can play the game at one time on terminal. A message with a hotline and URL for advice on gambling addiction is displayed when you reach your gaming limit (see Bruce)
-(bruce) It should be known that there is an age limit for casinos, however if this ap is purely used for entertainment and not real gambling we have not added an age restriction but to use on your own accord/risk.
+App is based off the addictive gambling game roulette so the potential legal issues could be if anyone used this app to gamble illegally. Moral, ethical, cultural and safety issues would be related to gambling addiction and this app can either aid or encourage this addiction which is why we have used a counter to limit the number of bets you can place befor recieving a prompt to consider calling a help line. A message with a hotline for advice on gambling addiction is displayed when you reach your gaming limit (see Bruce)
+It should be known that there is an age limit for casinos, however if this ap is purely used for entertainment and not real gambling we have not added an age restriction but to use on your own accord/risk.
 https://www.betsafe.com.au/policies/code_of_ethics/. 
 This app can also be used to get yourself familiar/teach you this casino game of roulette, if you have never played before (for example if you were physically unable to go to a casino) this app will allow you to play the game as a form of entertainment. We are not liable for how this app is used, and do not recommend using this app to cultivate bad habits/addiction.
 
