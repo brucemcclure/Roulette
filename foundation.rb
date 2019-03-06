@@ -166,7 +166,8 @@ while (bet_amount > player_purse) || (bet_choice .negative? == true) || (bet_amo
 
 #*************************************************************************
 case bet_choice
-    when 1                                                              
+    when 1
+        odds = 1                                                              
         puts "What color would you like to bet on?"                                             #Input for what color to bet on
         puts "Enter '1' for Red or '2' for Black"
         
