@@ -12,40 +12,44 @@ The function of this gaming application is to allow a user to input value to gue
 ###Instructions for use
 Step 1:  Download the file from GITHUB (above)
 Step 2: Open app on terminal
-![](Screenshots/1.png)
+![](docs/Screenshots/1.png)
 Step 3: Select a which type of bet you want to play in roulette by selecting a number from '1' to '11' (1: RED/BLACK, 2: ODD/EVEN, 3: 1-18, 4: 19-36, 5: 1st Dozen, 6: 2nd Dozen, 7: 3rd Dozen, 8: Column 1, 9: Column 2, 10: Column 3, 11: Single number)
-![](Screenshots/2.png)
+![](docs/Screenshots/2.png)
 Step 4: Follow online instructions if bet type '1' or '2' is selcted you will have to input a number for 1(RED or BLACK) and 2 (ODD or EVEN)
 Step 5: Enter monitary value you want to bet. You have a starting ledger value of $100. This is your maximum bet amount.
-![](Screenshots/3.png)
+![](docs/Screenshots/3.png)
 Step 6: Your betting result will display OR you will be prompted to enter a 'single number' to bet on
 Step 7: You can replay roulette (enter 'y' for yes or 'n' for no, any other key will exit the game), UNLESS you have already played 10 games (if so you will not be allowed to replay unless you reopen the game in terminal)
-![](Screenshots/4.png)
+![](docs/Screenshots/4.png)
 
 
 
 Details of design
-![](Pictures/Roulette.jpg)
+![](docs/Pictures/Roulette.jpg)
 
 Brainstroming sessions
 
-![](Pictures%20/brainstorming/1.jpg)
-![](Pictures%20/brainstorming/2.jpg)
-![](Pictures%20/brainstorming/3.jpg)
-![](Pictures%20/brainstorming/4.jpg)
-![](Pictures%20/brainstorming/5.jpg)
-![](Pictures%20/brainstorming/6.jpg)
-![](Pictures%20/brainstorming/7.jpg)
-![](Pictures%20/brainstorming/8.jpg)
-![](Pictures%20/brainstorming/9.jpg)
-![](Pictures%20/brainstorming/10.jpg)
-![](Pictures%20/brainstorming/11.jpg)
+![](docs/Pictures%20/brainstorming/1.jpg)
+![](docs/Pictures%20/brainstorming/2.jpg)
+![](docs/Pictures%20/brainstorming/3.jpg)
+![](docs/Pictures%20/brainstorming/4.jpg)
+![](docs/Pictures%20/brainstorming/5.jpg)
+![](docs/Pictures%20/brainstorming/6.jpg)
+![](docs/Pictures%20/brainstorming/7.jpg)
+![](docs/Pictures%20/brainstorming/8.jpg)
+![](docs/Pictures%20/brainstorming/9.jpg)
+![](docs/Pictures%20/brainstorming/10.jpg)
+![](docs/Pictures%20/brainstorming/11.jpg)
 
 Project plan and timeline
 
-
-![](Pictures%20/Trello/t1.png)
-![](Pictures%20/Trello/t2.png)
+https://trello.com/invite/b/l8WBU0rH/5ff7fbee1c25690c84b4137c8f5b3b75/roulette
+![](docs/Pictures%20/Trello/t1.png)
+![](docs/Pictures%20/Trello/t2.png)
+![](docs//Pictures%20/Trello/moret1.png)
+![](docs//Pictures%20/Trello/moret2.png)
+![](docs//Pictures%20/Trello/moret3.png)
+      
 
 
 
@@ -53,8 +57,8 @@ Project plan and timeline
 
 Code structure is a looped case statement with nested while loops for restricting incorrect user input, and overall loop and attached ledger document to record/tally the user’s the winnings and losses. The structure was designed around the 11 types of bets it is possible to place on a roulette table. A random generated number from the range 0-36 is issued and compared with your placed bets (bet type/number), and a message is displayed to show if you have won or loss. The winnings and the probability of you winning (the odds that you get when you win), are based on the roulette documentation.
 
-![](Pictures%20/base_table.png)
-![](Pictures%20/odds.png)
+![](docs/Pictures%20/base_table.png)
+![](docs/Pictures%20/odds.png)
 
 
 
@@ -88,7 +92,7 @@ Future devs - Put an age limit for persons below 18 – as there is a limitation
 
 App is based off the addictive gambling game roulette so the potential legal issues could be if anyone used this app to gamble illegally. Moral, ethical, cultural and safety issues would be related to gambling addiction and this app can either aid or encourage this addiction which is why we have used a counter to limit the number of bets you can place befor recieving a prompt to consider calling a help line. A message with a hotline for advice on gambling addiction is displayed when you reach your gaming limit
 
-![](Pictures%20/broke.png)
+![](docs/Pictures%20/broke.png)
 
 It should be known that there is an age limit for casinos, however if this ap is purely used for entertainment and not real gambling we have not added an age restriction but to use on your own accord/risk.
 https://www.betsafe.com.au/policies/code_of_ethics/. 
@@ -97,6 +101,10 @@ This app can also be used to get yourself familiar/teach you this casino game of
 ### 7. BROADER SOCIAL IMPACT OF APP  
 
 The potential broader social implication of this game used for gambling is that if used in conjunction with betting real monies may be breaking the law/legislation depending on the place/country of use. This game does not discriminate, although it may mimic the game and therefore facilitate in increasing a persons addiction to the game, however this app was made purely for personal entertainment and not for intended for use which may harm or cause offence to any give people or persons of any age
+
+### 8. DEBUGGING EVIDENCE
+
+![]()
 
 
 
