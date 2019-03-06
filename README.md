@@ -29,21 +29,27 @@ Details of design
 
 Brainstroming sessions
 
-![](Pictures /brainstorming/1.jpg)
-![](Pictures /brainstorming/2.jpg)
-![](Pictures /brainstorming/3.jpg)
-![](Pictures /brainstorming/4.jpg)
-![](Pictures /brainstorming/5.jpg)
-![](Pictures /brainstorming/6.jpg)
-![](Pictures /brainstorming/7.jpg)
-![](Pictures /brainstorming/8.jpg)
-![](Pictures /brainstorming/9.jpg)
-![](Pictures /brainstorming/10.jpg)
-![](Pictures /brainstorming/11.jpg)
+![](Pictures%20/brainstorming/1.jpg)
+![](Pictures%20/brainstorming/2.jpg)
+![](Pictures%20/brainstorming/3.jpg)
+![](Pictures%20/brainstorming/4.jpg)
+![](Pictures%20/brainstorming/5.jpg)
+![](Pictures%20/brainstorming/6.jpg)
+![](Pictures%20/brainstorming/7.jpg)
+![](Pictures%20/brainstorming/8.jpg)
+![](Pictures%20/brainstorming/9.jpg)
+![](Pictures%20/brainstorming/10.jpg)
+![](Pictures%20/brainstorming/11.jpg)
 
 Project plan and timeline
 
+
+
 ******(add TRELLO boards BRUCE)
+![](Pictures%20/Trello/t1.png)
+![](Pictures%20/Trello/t2.png)
+
+
 
 ### 1.	CODE STUCTURE
 
