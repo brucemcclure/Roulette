@@ -12,20 +12,26 @@ The function of this gaming application is to allow a user to input value to gue
 ###Instructions for use
 Step 1:  Download the file from GITHUB (above)
 Step 2: Open app on terminal
+![](Screenshots/1.png)
 Step 3: Select a which type of bet you want to play in roulette by selecting a number from '1' to '11' (1: RED/BLACK, 2: ODD/EVEN, 3: 1-18, 4: 19-36, 5: 1st Dozen, 6: 2nd Dozen, 7: 3rd Dozen, 8: Column 1, 9: Column 2, 10: Column 3, 11: Single number)
+![](Screenshots/2.png)
 Step 4: Follow online instructions if bet type '1' or '2' is selcted you will have to input a number for 1(RED or BLACK) and 2 (ODD or EVEN)
 Step 5: Enter monitary value you want to bet. You have a starting ledger value of $100. This is your maximum bet amount.
+![](Screenshots/3.png)
 Step 6: Your betting result will display OR you will be prompted to enter a 'single number' to bet on
 Step 7: You can replay roulette (enter 'y' for yes or 'n' for no, any other key will exit the game), UNLESS you have already played 10 games (if so you will not be allowed to replay unless you reopen the game in terminal)
+![](Screenshots/4.png)
+
+
 
  ******instructions screen shots (BRUCE put in for each step)
-![](Screenshots/1.png)
 
-![](Roulette/Screenshots/2.png)
 
-![](Roulette/Screenshots/3.png)
 
-![](Roulette/Screenshots/4.png)
+
+
+
+
 
 
 ##Details of design
