@@ -91,6 +91,11 @@ puts "\n"
 repeat = "y"
 
 while repeat == "y"
+    if player_purse <= 0 
+        social
+        sleep(15)
+        exit
+    end
       
 puts "Your current balance is $#{player_purse}"                                  #Displaying the current player purse
 puts "\n"
@@ -106,7 +111,7 @@ count += 1                                                                      
 #    end
 #else 
     File.open("count.txt", "a") do |line|                                        #Write method to the count file
-        line.puts "\r" + "#{count}"
+        line.puts "#{count}"
     end
 
 #*************************************************************************
@@ -311,7 +316,7 @@ end                                                                             
 #puts "The program is going to write #{player_purse} to the ledger" 
 
 File.open("ledger.txt", "a") do |line|                                                         #Write method to the betting ledger
-    line.puts "\r" + "#{player_purse}"
+    line.puts "#{player_purse}"
 end
 #************************************************************************
 puts "Would you like to play again? 'yes' = y , 'Exit' = any other key"                 #End of while loop
