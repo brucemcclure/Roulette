@@ -24,17 +24,8 @@ Step 7: You can replay roulette (enter 'y' for yes or 'n' for no, any other key 
 
 
 
- ******instructions screen shots (BRUCE put in for each step)
-
-
-
-
-
-
-
-
-
-##Details of design
+Details of design
+![](Pictures/Roulette.jpg)
 
 Brainstroming sessions
 
