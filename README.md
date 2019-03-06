@@ -19,7 +19,7 @@ Step 6: Your betting result will display OR you will be prompted to enter a 'sin
 Step 7: You can replay roulette (enter 'y' for yes or 'n' for no, any other key will exit the game), UNLESS you have already played 10 games (if so you will not be allowed to replay unless you reopen the game in terminal)
 
  ******instructions screen shots (BRUCE put in for each step)
-![](Roulette/Screenshots/1.png)
+![](Screenshots/1.png)
 
 ![](Roulette/Screenshots/2.png)
 
