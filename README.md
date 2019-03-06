@@ -104,7 +104,7 @@ The potential broader social implication of this game used for gambling is that 
 
 ### 8. DEBUGGING EVIDENCE
 
-![](docs/Pictures /Debugging_roulette.jpg)
+![](docs/Pictures%20/Debugging_roulette.jpg)
       
 
 
