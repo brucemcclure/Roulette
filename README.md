@@ -44,8 +44,6 @@ Brainstroming sessions
 Project plan and timeline
 
 
-
-******(add TRELLO boards BRUCE)
 ![](Pictures%20/Trello/t1.png)
 ![](Pictures%20/Trello/t2.png)
 
@@ -53,7 +51,10 @@ Project plan and timeline
 
 ### 1.	CODE STUCTURE
 
-Code structure is a looped case statement with nested while loops for restricting incorrect user input, and overall loop and attached ledger document to record/tally the user’s the winnings and losses. The structure was designed around the 11 types of bets it is possible to place on a roulette table. A random generated number from the range 0-36 is issued and compared with your placed bets (bet type/number), and a message is displayed to show if you have won or loss. The winnings and the probability of you winning (the odds that you get when you win), are based on the roulette documentation from (URL from Bruce).
+Code structure is a looped case statement with nested while loops for restricting incorrect user input, and overall loop and attached ledger document to record/tally the user’s the winnings and losses. The structure was designed around the 11 types of bets it is possible to place on a roulette table. A random generated number from the range 0-36 is issued and compared with your placed bets (bet type/number), and a message is displayed to show if you have won or loss. The winnings and the probability of you winning (the odds that you get when you win), are based on the roulette documentation from 
+
+![](Pictures%20/base_table.png)
+
 
 
 ### 2. Higher level structure of the app ***BRUCE(e.g. why modules or functions were used or why separate files were utilized)
