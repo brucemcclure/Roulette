@@ -100,20 +100,20 @@ while repeat == "y"
 puts "Your current balance is $#{player_purse}"                                  #Displaying the current player purse
 puts "\n"
 #*************************************************************************
-count_lines =File.open("count.txt").to_a                                        # reading file count.txt
+count_lines =File.open("count.txt").to_a                                        # reader file count.txt
 count = count_lines.last.to_f                                                   # Initializing count to the last value of count.txt
 count += 1                                                                      # Add 1 to count
 
-#if count >= 10                                                                  # Test if count is greater than 10
-#    social
-#    File.open("count.txt", "a") do |line|                                       
-#        line.puts "\r" + "#{0}"
-#    end
-#else 
+if count >= 10                                                                  # Test if count is greater than 10
+    social
+    File.open("count.txt", "a") do |line|                                       
+        line.puts "\r" + "#{0}"
+    end
+else 
     File.open("count.txt", "a") do |line|                                        #Write method to the count file
         line.puts "#{count}"
     end
-
+end
 #*************************************************************************
 
 puts "Below are the types of bets you can make"                                #Laying out the different betting types
