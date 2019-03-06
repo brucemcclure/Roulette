@@ -58,16 +58,25 @@ Code structure is a looped case statement with nested while loops for restrictin
 
 
 
-### 2. Higher level structure of the app ***BRUCE(e.g. why modules or functions were used or why separate files were utilized)
+### 2. Higher level structure of the app 
 
-Separate files were utilised for ledger, main-game (foundation), (Bruce section) – to allow a running tally on the winning or losses after playing the game. The amount you start with and the number of games played will limit how long you play the game,
+Separate files were utilised for ledger, main-game (foundation), the result after each bet is recorded – to allow a running tally on the winning or losses after playing the game. There is also a counting feature which counts the number of bets placed. Once this has reached 10 a health and safety message will be displayed. The amount you start with and the number of games played will limit how long you play the game. The lines of code used to write to the ledger.txt and count. txt files are clearly commented out in the code as #"writer" as the lines of code used to read from the external files are clearly commented in the code as "#Reader". 
+
+A large case statement was used to separate the different bet types. Thereafter conditional statements were used to determine the win/loss outcomes. 
+
+The entire betting component of the app is within a while loop to allow repeated play. 
+
 While loops were used for returning “error” messages when the user types in an invalid value, such as strings, symbols, empty spaces, and negative numbers will cause an error message and a loop to run until a number is entered for the betting game type of ‘betting on a single number’. The rescue term was used in ‘case 11’- ‘betting on a single number’ as it allowed the rejection of any value that was less than 0 and greater than 36, and allows you to prevent crashing the app if a string or symbol is used. This allowed the user to enter ‘0’ as a value to bet on as a single number.
 
-### 3.	DATA TYPES USED ****BRUCE explain the rationale behind various choices of data-types
+### 3.	DATA TYPES USED 
 
 In order to create a ‘fool-proof’ game we have limited the type of input that the user can select to numbers (integers or floats), for placing bet amounts and selecting type of roulette bet/game. User names or “string” to collect user names were not necessary for this version of the game as it was intended for personal enjoyment, however it could be a future version (for future developers to work on) to include username and password and allow you to play among multiple users.
 
-### 4.	EVIDENCE OF PLANNING ***BRUCE add screen shots
+Dealing with numbers mimicing actaul currency meant floats were used. Therefore a decimal place was able to be displayed.
+
+A large hash mimicing the roulette wheel with numbers from 0-36 and the appropriate colors was utilised. In order to spin the wheel a random number was chosen using the rand(36) function. placing this value in the hash would produce the corresponding color. This allowed for red/black bets.
+
+### 4.	EVIDENCE OF PLANNING 
 We used Tello, GitHub for project planning and collaborating. URL (INPUT) and web resources for research were used to ensure this App Roulette mimicked the real game and its winning probabilities. In order to make it as enjoyable as possible, we allowed users to repeat play if they wanted until they run out of funds (this was to mimic real-world conditions of what would happen when you run out of money gambling on the same game in a casino)
 
 ### 5. FUTURE OF APP ROULETTE
@@ -77,7 +86,10 @@ Future devs - Put an age limit for persons below 18 – as there is a limitation
 
 ### 6. POTENTIAL LEGAL, MORAL, ETHICAL, CULTURAL AND SAFETY ISSUES OF APP
 
-App is based off the addictive gambling game roulette so the potential legal issues could be if anyone used this app to gamble illegally. Moral, ethical, cultural and safety issues would be related to gambling addiction and this app can either aid or encourage this addiction which is why we have used a counter to limit the number of bets you can place befor recieving a prompt to consider calling a help line. A message with a hotline for advice on gambling addiction is displayed when you reach your gaming limit (see Bruce)
+App is based off the addictive gambling game roulette so the potential legal issues could be if anyone used this app to gamble illegally. Moral, ethical, cultural and safety issues would be related to gambling addiction and this app can either aid or encourage this addiction which is why we have used a counter to limit the number of bets you can place befor recieving a prompt to consider calling a help line. A message with a hotline for advice on gambling addiction is displayed when you reach your gaming limit
+
+![](Pictures%20/broke.png)
+
 It should be known that there is an age limit for casinos, however if this ap is purely used for entertainment and not real gambling we have not added an age restriction but to use on your own accord/risk.
 https://www.betsafe.com.au/policies/code_of_ethics/. 
 This app can also be used to get yourself familiar/teach you this casino game of roulette, if you have never played before (for example if you were physically unable to go to a casino) this app will allow you to play the game as a form of entertainment. We are not liable for how this app is used, and do not recommend using this app to cultivate bad habits/addiction.
