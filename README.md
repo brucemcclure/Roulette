@@ -29,7 +29,17 @@ Details of design
 
 Brainstroming sessions
 
-********Diagram (BRUCE TO INSERT)
+![](Pictures /brainstorming/1.jpg)
+![](Pictures /brainstorming/2.jpg)
+![](Pictures /brainstorming/3.jpg)
+![](Pictures /brainstorming/4.jpg)
+![](Pictures /brainstorming/5.jpg)
+![](Pictures /brainstorming/6.jpg)
+![](Pictures /brainstorming/7.jpg)
+![](Pictures /brainstorming/8.jpg)
+![](Pictures /brainstorming/9.jpg)
+![](Pictures /brainstorming/10.jpg)
+![](Pictures /brainstorming/11.jpg)
 
 Project plan and timeline
 
